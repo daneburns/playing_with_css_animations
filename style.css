@@ -1,0 +1,22 @@
+.hand
+{
+    width: 25%;
+    height: 25%;
+}
+
+#Layer_1
+{
+    animation-name: movement;
+    animation-duration: 5s;
+}
+
+@keyframes test {
+   0% {fill:green;}
+   100% {fill:red;}
+}
+
+@keyframes movement
+{
+    100% {transform: translateY(200px)};
+}
+
