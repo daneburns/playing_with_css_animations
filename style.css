@@ -8,6 +8,7 @@
 {
     animation-name: movement;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes test {
@@ -18,5 +19,6 @@
 @keyframes movement
 {
     100% {transform: translateY(200px)};
+
 }
 
